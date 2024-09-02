@@ -441,10 +441,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@figma/plugin-typings@npm:*":
-  version: 1.69.0
-  resolution: "@figma/plugin-typings@npm:1.69.0"
-  checksum: 978948a5f04bc6b82400100de6b3b2d0b3301b8e9ec7ef99de553b22ffe95264f47093807dd90adffb604972ac5f8a53e205eb9dbff8af2bdd9e04cebbe3957d
+"@figma/plugin-typings@npm:^1.99.0":
+  version: 1.99.0
+  resolution: "@figma/plugin-typings@npm:1.99.0"
+  checksum: 33498fb16b410d07829697ddfb4d9e9dcf9c574ceaa71dd8cbbf6b3cd68c23a2a643e40eb39eae4955f07896da0a90bf905789adece597200c3c4e0b9cec5de0
   languageName: node
   linkType: hard
 
@@ -1575,7 +1575,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "figma-variable-macros@workspace:."
   dependencies:
-    "@figma/plugin-typings": "*"
+    "@figma/plugin-typings": ^1.99.0
     "@types/chroma-js": ^2.4.0
     "@types/react": ^17.0.0
     "@types/react-dom": ^17.0.0
@@ -1641,7 +1641,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -2398,7 +2398,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
   dependencies:
     is-core-module: ^2.12.0
     path-parse: ^1.0.7
@@ -2773,11 +2773,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.4.2#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1f8f3b6aaea19f0f67cba79057674ba580438a7db55057eb89cc06950483c5d632115c14077f6663ea76fd09fce3c190e6414bb98582ec80aa5a4eaf345d5b68
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
